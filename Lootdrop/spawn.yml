@@ -1,0 +1,8 @@
+#version ( DONT CHANGE ) 
+version: 1
+
+Spawn:
+ World: "null"
+ X: 0
+ Y: 0
+ Z: 0

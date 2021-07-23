@@ -1,0 +1,7 @@
+name: Lootdrop
+version: 1.0
+main: com.lootdrop.main.Lootdrop
+author: Unfairbody96
+commands:
+  lootdrop:
+    description: Punish main command

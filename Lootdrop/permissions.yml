@@ -1,0 +1,9 @@
+#version ( DONT CHANGE ) 
+version: 1
+
+Permissions:
+ default: "lootdrop.command.help"
+ admin: "lootdrop.admin"
+ setspawn: "lootdrop.admin.setspawn"
+ time: "lootdrop.command.time"
+ timer_bypass: "lootdrop.timer.bypass"

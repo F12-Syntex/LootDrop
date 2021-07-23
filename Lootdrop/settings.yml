@@ -1,0 +1,64 @@
+#version ( DONT CHANGE ) 
+version: 1
+
+Settings:
+
+ #How many blocks need to be checked.
+ Raduis: 80
+ 
+ #Height ( if this is set as non sphere )
+ Height: 3
+ 
+ #Should the mapping be done as a sphere? ( WILL CAUSE MUCH MORE LAGG DURING MAPPING )
+ Sphere: false
+ 
+ #Should the check be a hollow circle?
+ Hollow: false
+ 
+ #The Block The crate should fall on top of.
+ TargetBlock: 
+  Block: STAINED_GLASS_PANE
+  Data: 14
+  
+ #Amount of crate drops.
+ Drops: 5
+ 
+ #Time for crates to fall (In seconds). ( defualt is 1 hour 6*60*60)
+ TimeForDrop: 3600
+ 
+ #Speed of falling crates
+ Delay: 5L
+ 
+ 
+#placeholder
+# %item% -> material name
+
+Crate:
+ '1':
+   Name: "%item%"
+   Material: DIAMOND
+   Amount: 16
+   Lore:
+    - "&bI am a very overpowered diamond!"
+    - "&4&lFEAR ME!!!"
+   Enchantments: 
+    - 4: LOOT_BONUS_MOBS
+    - 10: DURABILITY
+   Chance: 0.5
+ '2':
+   Name: "%item%"
+   Material: DIAMOND_SWORD
+   Amount: 1
+   Lore:
+    - "&bI am a very overpowered diamond sword!"
+    - "&cBE SLAIN"
+   Enchantments: 
+    - 100: LOOT_BONUS_MOBS
+    - 10: DURABILITY
+   Chance: 0.5
+
+ 
+ 
+ 
+ 
+  
